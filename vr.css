@@ -11,6 +11,7 @@ ul.navigationbar {
     padding: 0;
     overflow: hidden;
     background-color: #1f1f1f;
+    position: fixed;
     top: 0;
     width: 100%;
     z-index: 1;
