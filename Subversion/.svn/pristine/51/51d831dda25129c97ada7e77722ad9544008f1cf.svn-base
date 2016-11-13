@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   
+    <meta charset="utf-8">
+        
+    <title>Bartending - A-Frame</title>
+    <meta name="description" content="Hello, World! - A-Frame">
+        
+    <!-- AwesomeFont -->
+    <link rel="stylesheet" href="../Bartending-Website/font-awesome-4.7.0/css/font-awesome.min.css">
+        
+    <!-- Perosnal Style Sheet -->
+    <link rel="stylesheet" href="faq.css">
+        
+    <!-- A Frame Script -->
+    <script src="https://aframe.io/releases/0.3.2/aframe.min.js"></script>
+        
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    </head>
+    
+    <body>
+<ul class="navigationbar">
+  <li class="navigationbar"><a id="navbar" href="home.html">Home</a></li>
+  <li class="navigationbar"><a id="navbar" href="recipes.html">Recipes</a></li>
+  <li class="navigationbar"><a id="navbar" href="getstarted.html">Getting Started</a></li>
+  <li class="navigationbar"><a id="navbar" href="faq.html" >About and FAQ</a></li>
+  <li class="navigationbar" id="title"><i class="fa fa-glass"></i> Bartending Society</li>
+  <li class="navigationbar"><a id="navbar" href="vr.html" class="active">Virtual Bar</a></li>
+    <li class="navigationbar"><a id="navbar" href="blog.html"  >Blog</a></li>
+</ul>
+        
+    <a-scene>
+        <a-light type="spot" color="#333" position="-20 0 0"></a-light>
+        <a-sky src="#pano"></a-sky>
+        <a-camera position ="0 0 0">
+        <a-cursor color="#fff"></a-cursor>
+        </a-camera>
+    <a-assets>
+     <img id="pano" src="images-liam/test.JPG">  
+    </a-assets> 
+        
+    </a-scene>
+    
+    </body>
+</html>
