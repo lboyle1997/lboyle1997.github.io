@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Website for the Bartending Society at the University of Dundee">
+    <meta name="author" content="Liam Boyle">
+        
+    <link href="images/glass.ico" rel="icon" type="image/x-icon" />
+    <title>Bartending - A-Frame</title>
+    <meta name="description" content="Hello, World! - A-Frame">
+        
+    <!-- AwesomeFont -->
+    <link rel="stylesheet" href="../Bartending-Website/font-awesome-4.7.0/css/font-awesome.min.css">
+        
+    <!-- Perosnal Style Sheet -->
+    <link rel="stylesheet" href="CSS/vr.css">
+        
+    <!-- A Frame Script -->
+    <script src="https://aframe.io/releases/0.3.2/aframe.min.js"></script>
+        
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    </head>
+    
+    <body>
+<ul class="navigationbar">
+  <li class="navigationbar"><a id="navbar" href="index.html">Back</a></li>
+ 
+</ul>
+        
+    <a-scene>
+        <a-light type="spot" color="#333" position="-20 0 0"></a-light>
+        <a-sky src="#pano"></a-sky>
+        <a-camera position ="0 0 0">
+        <a-cursor color="#fff"></a-cursor>
+        </a-camera>
+    <a-assets>
+     <img id="pano" src="images/Bar.JPG">  
+    </a-assets> 
+        
+    </a-scene>
+    
+    </body>
+</html>

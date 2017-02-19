@@ -1,0 +1,245 @@
+/* Global Styles */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+html,
+body {
+    margin-top: 10px; 
+    font-family: 'Roboto Condensed', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+        
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+
+/* Button Styles */
+
+.btn-blue{
+    
+    letter-spacing: .05em;
+    display: inline-block;
+    margin: 0 0 10px;
+    border: 3px solid #00afdb;
+    color: #00afdb;
+    text-transform: uppercase;
+    background: 0 0;
+    transition: background 0.5s;
+    
+}
+
+.btn-blue:hover,
+.btn-blue:focus,
+.btn-blue:active {
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+    background: #00afdb;
+    text-shadow: none;
+}
+
+
+/* Header */
+
+.header {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: white;
+    background: url("../images/1111.jpg") no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    margin-bottom: 25px;
+}
+
+/* Navagation Bar */
+
+ul.navigationbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1f1f1f;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+li#title{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float:right;
+    
+}
+
+li.navigationbar{
+    float:left;
+}
+
+li a#navbar{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+}
+
+li a#navbar:hover{
+    background-color: #00AFDB;
+}
+
+.active{
+    background-color: #00AFDB;
+}
+
+/* Shop Items */
+
+.shop-item{
+
+    margin-bottom: 25px;
+}
+
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+  -webkit-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.hovereffect:hover img {
+  filter: brightness(0.3);
+  -webkit-filter: brightness(0.3);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 18px;
+  background-color: transparent;
+  color: white;
+  padding: 1em 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.hovereffect a,
+.hovereffect p,
+.hovereffect h5 {
+  color: white;
+  padding: 1em 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.hovereffect:hover a,
+.hovereffect:hover p,
+.hovereffect:hover h2, 
+.hovereffect:hover h5 {
+  opacity: 1;
+}
+
+
+
+/* Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+    height:0; 
+    border:0; 
+    border-top:1px solid #16CCFF;
+}
+
+
+
+/* Footer */
+
+footer {
+    padding: 100px 0;
+    background-color:#231F20;
+    color: #6c6c6c;
+}
+
+a:link {
+    color: #6c6c6c;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #00afdb;
+}
+
+.fa-twitter,
+.fa-facebook,
+.fa-instagram{
+    color:#6c6c6c;
+}
+
+.fa-twitter:hover {
+    color: #44ccff;
+}
+
+.fa-facebook:hover {
+    color: #3b5998;
+}
+
+.fa-instagram:hover {
+background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+

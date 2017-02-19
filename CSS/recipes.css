@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+/* 
+    Created on : 31-Oct-2016, 15:16:53
+    Author     : danyalali
+*/
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background: #3A3637;
+    color: white;
+}
+
+/* Navbar */
+ul.navigationbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1f1f1f;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+li#title{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float:right;
+    
+}
+
+li.navigationbar{
+    float:left;
+}
+
+li a#navbar{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  
+}
+
+li a#navbar:hover{
+    background-color: #01A4CD;
+}
+
+.active{
+    background-color: #01A4CD;
+}
+
+
+div>ul {
+    display: inline-block
+        
+}
+
+div.container {
+    clear: both;
+    padding: 50px 0;
+    
+}
+
+ul.drinks li {
+    
+    display:inline;
+    text-align: center;
+    color: white;
+    
+}
+
+a.drinks:hover {
+    text-decoration: none;
+    color: red;
+}
+
+ul:link {
+    color: white;
+}
+
+dt, dd {
+    float: left;
+    width: 50%;
+    
+}
+
+dt {
+    clear: left;
+}
+
+div.mojito {
+    float: left;
+    display: block;
+    width: 100%;
+
+} 
+
+div#eqp{
+    margin-top: -20px;
+    
+}
+
+ol.method {
+    float: left;
+    text-align: left;
+    font-size: 16pt;
+        
+}
+div.liit {
+    float: left;
+    display: block;
+    width: 100%;
+    
+} 
+
+div.cosmopolitan {
+    float: left;
+    display: block;
+    width: 100%;
+    
+} 
+
+div.martini {
+    float: left;
+    display: block;
+    width: 100%;
+    
+} 
+
+div.oldfashioned {
+    float: left;
+    display: block;
+    width: 100%;
+    
+} 
+
+div.container {
+    width: 100%
+}
+
+    div.container#mojito {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+        url(../images/mojito.jpg);
+       background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+    div.container#liit { 
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+        url(../images/liit.jpg);
+        background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+    div.container#cosmopolitan { 
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+        url(../images/cosmopolitan.jpg);
+        background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+    div.container#martini { 
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+        url(../images/martini.jpg);
+       background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+    div.container#oldfashioned { 
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+        url(../images/oldfashioned.jpg);
+        background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+hr.recipes {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+hr.recipes2 {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    width: 90%
+}
+
+div#eqp {
+    float: left;
+    width: 50%;
+}
+
+div#ing {
+   float: left;
+    width: 50%;
+}
+
+/* Footer */
+footer {
+    padding: 100px 0;
+}
+a:link {
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color:darkgrey;
+}
+.fa-twitter{
+    color:white;
+}
+.fa-twitter:hover {
+    color: #44ccff;
+}
+.fa-facebook{
+    color:white;
+}
+.fa-facebook:hover {
+    color: #3b5998;
+}
+.fa-rocket{
+    color:white;
+}
+.fa-rocket:hover {
+    color: red;
+}
+
+
+            
